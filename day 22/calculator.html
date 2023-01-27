@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        .calci-container {
+            height: 450px;
+            width: 340px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 2px 2px gray;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            background-color: beige;
+            margin-top: 100px;
+        }
+        .input-box
+        {
+            width: 306px;
+            height: 40px;
+            margin-left: 14px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 35px;
+            background-color: rgb(155, 158, 155);
+        }
+        .buttons-container
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .buttons
+        {
+            height: 45px;
+            width: 70px;
+            margin: 5px;
+            font-size: 23px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .buttons:hover{
+            box-shadow: 0 1px 2px 1px black;
+            transition: 0.5s;
+            color: red;
+        }
+        .bg-red
+        {
+            background-color: red;
+            color: white;
+        }
+        .bg-red:hover{
+            color: white;
+        }
+        .footer
+        {
+            text-align: center;
+            background-color: black;
+            padding: 5px;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0px 1px 1px 2px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calci-container">
+        <h2 style="margin-left: 13px;color: darkblue;">Amit</h2>
+        <input type="text" class="input-box"/>
+        <div class="buttons-container">
+            <button class="buttons">7</button>
+            <button class="buttons">8</button>
+            <button class="buttons">9</button>
+            <button class="buttons bg-red">+</button>
+        </div>
+        <div class="buttons-container">
+            <button class="buttons">4</button>
+            <button class="buttons">5</button>
+            <button class="buttons">6</button>
+            <button class="buttons bg-red">-</button>
+        </div>
+        <div class="buttons-container">
+            <button class="buttons">1</button>
+            <button class="buttons">2</button>
+            <button class="buttons">3</button>
+            <button class="buttons bg-red">*</button>
+        </div>
+        <div class="buttons-container">
+            <button class="buttons">0</button>
+            <button class="buttons bg-red">.</button>
+            <button class="buttons bg-red">/</button>
+            <button class="buttons bg-red">=</button>
+        </div>
+        <h2 class="footer">Copyright @Amit</h2>
+    </div>
+</body>
+
+</html>
