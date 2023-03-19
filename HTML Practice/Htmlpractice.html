@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Heading Tags -->
+    <h1>First heading tag</h1>
+    <h2>Second heading tag</h2>
+    <h3>Third heading tag</h3>
+    <h4>Forth heading tag</h4>
+    <h5>Fifth heading tag</h5>
+    <h6>Sixth heading tag</h6>
+
+    <!-- Bold,Italic,Underline,Superscript,Subscript,Delete Tags -->
+    <b>This is bold tag</b><br />
+    <i>This is italic tag</i><br />
+    <u>This is Underline tag</u><br />
+     H<sub>2</sub>O<br />
+    a<sup>2</sup>+ b <sup>2</sup> = a<sup>2</sup>+ b<sup>2</sup>+ 2ab<br />
+    <del>This is delete tag</del><br />
+
+    <!-- Image , Audio , Video Tags , Anchor , marquee-->
+    <img src="" alt="" height="" width=""/><br />
+
+    <audio controls autoplay muted >
+        <source src=" " type="audio/mp4">
+    </audio><br /><br />
+
+    <!-- poster attribute is use for thumbnail -->
+    <video controls autoplay muted poster="">
+        <source src=" " type="video/mp3">
+    </video><br />
+
+    <a href="" target="">Click here</a><br />
+    <a href="mailto:" target="">Click here</a><br />
+    <a href="tel:" target="">Click here</a><br />
+    
+    <marquee behavior="" direction="left">This is marquee tag</marquee><br />
+
+    <!-- iframe TAg -->
+    <iframe src="https://www.google.com" name="iframe" height="300px" width="300px">
+
+    </iframe>
+
+    <!-- Form Tag  -->
+
+    <form>
+        <fieldset>
+            <legend>Form</legend>
+            <input type="text" placeholder="enter your name" /><br /><br />
+            <input type="color" /><br /><br />
+            <input type="radio" name="a"/><br /><br />
+            <input type="checkbox"/><br /><br />
+            <input type="date"/><br /><br />
+            <input type="time"/><br /><br />
+            <input type="datetime"/><br /><br />
+            <input type="range"/><br /><br />
+            <input type="password"/><br /><br />
+            <input type="reset"/><br /><br />
+            <input type="search"/><br /><br />
+            <input type="button"/><br /><br />
+            <input type="submit"/><br /><br />
+            <textarea>Amit</textarea><br /><br />
+        </fieldset>
+    </form>
+
+    <!-- Table Tag -->
+    <table border="1">
+        <tr>
+            <td rowspan="2">abc</td>
+            <td colspan="2">def</td>
+            <!-- <td>geh</td> -->
+        </tr>
+        <tr>
+            <td>def</td>
+            <td>geh</td>
+        </tr>
+    </table>
+
+    <!-- Ordered list , Unordered list -->
+
+    <!-- Ordered List type=1 , A , a , I , i -->
+    <!-- start attribute is used to start numbering from that specific number -->
+    <!-- by default type will be 1 -->
+    <ol type="1" start="">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+
+    <!-- UnOrdered List type= disk , circle , square  -->
+    <!-- There is no start attribute for Unordered list , By default the type will be disk -->
+    <ul type="" >
+        <li>Samosa</li>
+        <li>Pakoda</li>
+        <li>Vada-pav</li>
+        <li>Aloo-bhaja</li>
+    </ul>
+
+    <!-- Select tag -->
+    <select name="select">
+        <option>aaaa</option>
+        <option>bbbb</option>
+        <option>cccc</option>
+        <option>dddd</option>
+        <option>eeee</option>
+    </select>
+
+    <!-- Datalist tag alternative for select tag -->
+
+    <input list="datalist" name="aaaa"/>
+    <datalist id="datalist">
+        <option>aaaa</option>
+        <option>bbbb</option>
+        <option>cccc</option>
+        <option>dddd</option>
+        <option>eeee</option>
+    </datalist><br />
+
+    <!-- Span and Div Tag -->
+
+    <span style="background-color: aqua;">This is span Tag</span>
+    <div style="background-color: aqua;">This is Div Tag</div>
+
+    <!-- Embed Tag -->
+    <!-- Embed tag are used to open non html content like pdf file. -->
+    <embed
+      src="Homework-3.pdf"
+      type="application/pdf"
+      height="300px"
+      width="300px"
+    />
+
+    <!-- The <label> tag is used to specify a label for an <input> element. -->
+    <label for="inputFullName">Enter FullName: </label>
+      <input type="text" id="inputFullName" />
+      
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<style>
+    .whiteboard-div
+    {
+        height: 300px;
+        width: 400px;
+        border: 2px black solid;
+        display: block;
+        margin: 0 auto;
+        background-color: orange;
+        border-radius: 15px;
+    }
+    .btn-div
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .btn
+    {
+       margin: 5px;
+    }
+    .red
+    {
+        height: 300px;
+        width: 400px;
+        border: 2px black solid;
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: red;
+    }
+    .blue
+    {
+        height: 300px;
+        width: 400px;
+        border: 2px black solid;
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: blue;
+    }
+    .yellow
+    {
+        height: 300px;
+        width: 400px;
+        border: 2px black solid;
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: yellow;
+    }
+    .green
+    {
+        height: 300px;
+        width: 400px;
+        border: 2px black solid;
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: green;
+    }
+</style>
+<body>
+    <script>
+        function red()
+        {
+            const element=document.getElementById('whiteboard').className = "red"
+        }
+        function blue()
+        {
+            const element=document.getElementById('whiteboard').className = "blue"
+        }
+        function yellow()
+        {
+            const element=document.getElementById('whiteboard').className = "yellow"
+        }
+        function green()
+        {
+            const element=document.getElementById('whiteboard').className = "green"
+        }
+    </script>
+    <div>
+        <div class="whiteboard-div" id="whiteboard">
+        </div><br />
+        <div class="btn-div">
+            <button class="btn" onclick="red()">red</button>
+            <button class="btn" onclick="blue()">blue</button>
+            <button class="btn" onclick="yellow()">yellow</button>
+            <button class="btn" onclick="green()">green</button>
+        </div>
+    </div>
+</body>
+</html>
